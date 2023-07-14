@@ -12,9 +12,11 @@ module.exports = {
   settings: { react: { version: '18.2' } },
   plugins: ['react-refresh'],
   rules: {
+    semi: ['warn', 'always'],
+    eqeqeq: 'warn',
     'react-refresh/only-export-components': [
       'warn',
       { allowConstantExport: true },
     ],
   },
-}
+};
